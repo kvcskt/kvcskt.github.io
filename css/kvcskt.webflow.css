@@ -979,6 +979,7 @@ label {
   width: 15px;
 }
 
+
 .arrow-icon.company {
   width: 15px;
 }
@@ -1571,6 +1572,7 @@ label {
 
   .footer-text{
     color: white;
+    width: auto;
   }
 
   .personal-project-title-wrapper {
