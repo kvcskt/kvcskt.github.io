@@ -1417,6 +1417,10 @@ label {
     padding-left: 30px;
   }
 
+  .section.placeholder {
+    height: 220px;
+  }
+
   .section.contact {
     height: 220px;
     -webkit-box-orient: vertical;
@@ -1653,7 +1657,10 @@ label {
   }
 
   .contact-content {
-    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
   }
 
   .nav-container {
@@ -1702,11 +1709,11 @@ label {
   }
 
   .section.placeholder {
-    height: 200px;
+    height: 250px;
   }
 
   .section.contact {
-    height: 200px;
+    height: 250px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
