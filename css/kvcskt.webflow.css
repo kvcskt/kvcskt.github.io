@@ -1571,7 +1571,7 @@ label {
   }
 
   .footer-text{
-    color: white;
+    color: white !important;
     width: auto;
   }
 
