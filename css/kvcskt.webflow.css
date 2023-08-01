@@ -1041,6 +1041,7 @@ label {
     flex-direction: column-reverse;
     margin-bottom: 25px;
     padding-top: 25px;
+    cursor: pointer;
   }
 
   .portfolio-item.small-thumbnail {
@@ -1271,6 +1272,7 @@ label {
     flex-direction: column-reverse;
     margin-bottom: 30px;
     padding-top: 30px;
+    cursor: pointer;
   }
 
   .portfolio-item.small-thumbnail {
