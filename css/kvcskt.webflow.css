@@ -217,6 +217,7 @@ label {
   padding-top: 50px;
   text-decoration: none;
   display: flex;
+  cursor: pointer;
 }
 
 .portfolio-item:first-child {
