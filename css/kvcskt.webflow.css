@@ -147,6 +147,7 @@ label {
 
 .button {
   color: #5e5d25;
+  cursor: pointer;
   background-color: #fdece3;
   border: 1px solid #c7917b;
   border-radius: 5px;
@@ -211,18 +212,22 @@ label {
 }
 
 .portfolio-item {
-  border-top: 1px solid #c7917b;
-  justify-content: space-between;
-  margin-bottom: 50px;
-  padding-top: 50px;
-  text-decoration: none;
-  display: flex;
   cursor: pointer;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  transition: all .2s cubic-bezier(.215, .61, .355, 1);
+  display: flex;
 }
 
 .portfolio-item:first-child {
   border-top-width: 0;
   padding-top: 0;
+}
+
+.portfolio-item:hover {
+  transform: translate(5px, -5px);
 }
 
 .contact-content {
@@ -364,6 +369,7 @@ label {
   color: #5e5d25;
   flex: none;
   align-self: flex-end;
+  margin-top: 50px;
   text-decoration: none;
   display: flex;
 }
@@ -451,7 +457,6 @@ label {
   width: 100%;
   height: 1px;
   background-color: #c7917b;
-  margin-bottom: 50px;
 }
 
 .brand-2 {
@@ -581,7 +586,8 @@ label {
   min-height: 200px;
   color: #5e5d25;
   justify-content: space-between;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-decoration: none;
   display: flex;
 }
@@ -1041,7 +1047,6 @@ label {
     flex-direction: column-reverse;
     margin-bottom: 25px;
     padding-top: 25px;
-    cursor: pointer;
   }
 
   .portfolio-item.small-thumbnail {
@@ -1272,7 +1277,6 @@ label {
     flex-direction: column-reverse;
     margin-bottom: 30px;
     padding-top: 30px;
-    cursor: pointer;
   }
 
   .portfolio-item.small-thumbnail {
