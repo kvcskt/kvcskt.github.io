@@ -1,0 +1,24 @@
+The following files failed to download during site export. Please check them in the designer assets view (images) or dashboard (fonts).
+
+images/000036640013_1-p-1600.jpg
+images/000036640019-p-1600.jpg
+images/000036650017-p-1080.jpg
+images/000036650017-p-800.jpg
+images/000063210013-p-2000.jpg
+images/000067520010-p-1080.jpg
+images/000067520010-p-500.jpg
+images/000067520010-p-800.jpg
+images/000084370024-p-1080.jpg
+images/000084370024-p-1600.jpg
+images/000084370024-p-800.jpg
+images/000090270032-p-1080.jpg
+images/000090270032-p-1600.jpg
+images/000090270032-p-2000.jpg
+images/000090270032-p-500.jpg
+images/000090270032-p-800.jpg
+images/09030020-p-1080.jpg
+images/09030020-p-500.jpg
+images/09030020-p-800.jpg
+images/76070036-p-1080.jpg
+images/76070036-p-500.jpg
+images/76070036-p-800.jpg
