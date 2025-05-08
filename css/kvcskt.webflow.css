@@ -1205,6 +1205,12 @@ label {
     font-size: 7rem;
   }
 
+  .grid {
+    display: flex;
+    flex-direction: vertical;
+    align-items:strech;
+  }
+
   .nav-link-2:hover {
     transform: none;
   }
@@ -1267,6 +1273,7 @@ label {
 
   .grid {
     display: flex;
+    
   }
 
   .grid.b-border {
