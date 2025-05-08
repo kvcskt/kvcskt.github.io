@@ -1207,7 +1207,7 @@ label {
 
   .grid {
     display: flex;
-    flex-direction: vertical;
+    flex-direction: column;
     align-items:strech;
   }
 
