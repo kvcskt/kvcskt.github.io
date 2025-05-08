@@ -971,6 +971,11 @@ label {
   font-weight: 400;
 }
 
+.h2-light {
+  margin-top: 0;
+  color: white;
+}
+
 .brand-text {
   color: var(--dark-grey);
   font-weight: 700;
