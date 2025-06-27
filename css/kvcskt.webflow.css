@@ -1562,7 +1562,6 @@ label {
   .portfolio-item-link {
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    flex-flow: column;
     padding-top: 0;
     padding-bottom: 0;
   }
