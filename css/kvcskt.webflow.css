@@ -1,3 +1,155 @@
+@font-face {
+  font-family: Vollkorn;
+  src: url('../fonts/Vollkorn-Bold.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-ExtraBold.otf') format("opentype"), url('../fonts/TypeType---TTNorms-Bold.otf') format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-Black.otf') format("opentype"), url('../fonts/TypeType---TTNorms-Heavy.otf') format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-BoldItalic.otf') format("opentype"), url('../fonts/TypeType---TTNorms-ExtraBoldItalic.otf') format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-Regular.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-Thin.otf') format("opentype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-BlackItalic.otf') format("opentype"), url('../fonts/TypeType---TTNorms-HeavyItalic.otf') format("opentype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-ThinItalic.otf') format("opentype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-Medium.otf') format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-LightItalic.otf') format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-MediumItalic.otf') format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-ExtraLightItalic.otf') format("opentype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-Light.otf') format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-ExtraLight.otf') format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: ttnorms;
+  src: url('../fonts/TypeType---TTNorms-Italic.otf') format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url('../fonts/Gilroy-Bold.otf') format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url('../fonts/Gilroy-Medium.otf') format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url('../fonts/Gilroy-Regular.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Public Sans;
+  src: url('../fonts/PublicSans-Bold.otf') format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --dark-grey: #222;
   --dark-green: #363807;
@@ -967,13 +1119,8 @@ label {
 }
 
 .h1-light {
+  color: var(--white);
   margin-top: 0;
-  font-weight: 400;
-}
-
-.h2-light {
-  margin-top: 0;
-  color: white;
 }
 
 .brand-text {
@@ -1211,9 +1358,10 @@ label {
   }
 
   .grid {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: stretch;
     display: flex;
-    flex-direction: column;
-    align-items:stretch;
   }
 
   .nav-link-2:hover {
@@ -1277,9 +1425,8 @@ label {
   }
 
   .grid {
+    flex-flow: column;
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
   }
 
   .grid.b-border {
@@ -1291,7 +1438,17 @@ label {
     margin-bottom: 3rem;
   }
 
-  .grid.b-border.u-mb-5.about-intro, .grid.projects-list, .grid.hero {
+  .grid.b-border.u-mb-5.about-intro {
+    flex-flow: column;
+  }
+
+  .grid.projects-list {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  .grid.hero {
     flex-flow: column;
   }
 
@@ -1562,6 +1719,9 @@ label {
   .portfolio-item-link {
     grid-column-gap: 5px;
     grid-row-gap: 5px;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -1703,7 +1863,7 @@ label {
 
   .h1-title {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 2.5rem;
   }
 
   .wedding-lightbox-link {
@@ -1735,6 +1895,10 @@ label {
     margin-bottom: 10%;
   }
 
+  .webflow-paragraph {
+    flex-flow: column;
+  }
+
   .background-video {
     height: 200px;
   }
@@ -1754,6 +1918,10 @@ label {
 
   .see-more-label {
     margin-bottom: 5px;
+  }
+
+  .u-mt-o {
+    font-size: 2.2rem;
   }
 }
 
@@ -1781,7 +1949,7 @@ label {
   grid-area: 1 / 2 / 2 / 2;
 }
 
-#w-node-fd4b00a7-1800-5430-c59b-139165bb9d11-de78e04b, #w-node-f9916f71-0d82-d351-85ca-72846059d650-de78e04b, #w-node-e166b40c-a365-fd9f-abfd-33cb24c1e85a-de78e04b, #w-node-_9a782afc-dfc4-49bf-95fe-5887e1876afe-de78e04b, #w-node-_2c5a4a57-b650-b71f-f828-6673c1b4e9bd-de78e04b, #w-node-_2c6be7a0-3b8b-f072-ca24-15f287b5f450-de78e04b {
+#w-node-fd4b00a7-1800-5430-c59b-139165bb9d11-de78e04b, #w-node-_92a793af-80d4-289c-80d7-001497be9067-de78e04b, #w-node-f607864e-e92c-a61c-e56a-0edd74412dda-de78e04b, #w-node-f9916f71-0d82-d351-85ca-72846059d650-de78e04b, #w-node-e166b40c-a365-fd9f-abfd-33cb24c1e85a-de78e04b, #w-node-_9a782afc-dfc4-49bf-95fe-5887e1876afe-de78e04b, #w-node-_2c5a4a57-b650-b71f-f828-6673c1b4e9bd-de78e04b, #w-node-_2c6be7a0-3b8b-f072-ca24-15f287b5f450-de78e04b {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
@@ -1801,24 +1969,12 @@ label {
   grid-area: 1 / 2 / 2 / 2;
 }
 
-#w-node-_95be1d37-ee00-07f2-dbf4-52a5245c57f7-808f03c3, #w-node-_572423ff-ec6a-9814-1365-7cf3250196bf-808f03c3, #w-node-_5e1f9295-93d7-6d0b-7fd2-839da4964130-6c5caca3 {
+#w-node-_95be1d37-ee00-07f2-dbf4-52a5245c57f7-808f03c3, #w-node-_572423ff-ec6a-9814-1365-7cf3250196bf-808f03c3 {
   grid-area: 1 / 2 / 2 / 3;
-}
-
-#w-node-_5e1f9295-93d7-6d0b-7fd2-839da4964131-6c5caca3 {
-  grid-area: 1 / 2 / 2 / 2;
 }
 
 #w-node-d5d51537-7085-3ca3-6d44-6ae1ca7e6183-94cb1f84, #w-node-_166fae2d-15ab-5ce4-f54f-69e00120f95c-94cb1f84, #w-node-f3a7e981-1b3b-1465-c919-621b7fb08e6d-94cb1f84, #w-node-d070aa43-f5a8-38b5-63de-c060ca7c784f-94cb1f84, #w-node-_71baee3f-949a-9f9c-5311-cdb6d1e15fd8-94cb1f84, #w-node-_9225c0ee-85d8-b8b7-eb84-236353a4fb16-6caf723e, #w-node-_9225c0ee-85d8-b8b7-eb84-236353a4fb26-6caf723e, #w-node-_9225c0ee-85d8-b8b7-eb84-236353a4fb30-6caf723e, #w-node-_72ed50e9-4de9-faf0-04f7-f15258736c48-42ca2a97, #w-node-_72ed50e9-4de9-faf0-04f7-f15258736c50-42ca2a97, #w-node-fcd988eb-a1e2-0600-9ea2-b19f90a175c3-42ca2a97, #w-node-_72ed50e9-4de9-faf0-04f7-f15258736cfb-42ca2a97 {
   grid-area: span 1 / span 2 / span 1 / span 2;
-}
-
-#w-node-_95be1d37-ee00-07f2-dbf4-52a5245c57f7-abfaf957 {
-  grid-area: 1 / 2 / 2 / 3;
-}
-
-#w-node-f83d3e19-390c-bd21-9ced-a5d183deebcc-abfaf957 {
-  grid-area: 1 / 2 / 2 / 2;
 }
 
 #w-node-f5b110ac-37d9-6df2-083d-4480cf8c4b4f-92e5b60d {
@@ -1836,7 +1992,7 @@ label {
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-c553633d-891a-3318-e2a8-afd941d34f6b-c90c5db6, #w-node-f83d3e19-390c-bd21-9ced-a5d183deebcc-808f03c3, #w-node-_6550accc-6ea1-2e83-7c52-a3cbc4a161e4-808f03c3, #w-node-_663dea5b-dc64-9bd6-36c2-9d6fd3f611db-808f03c3, #w-node-_572423ff-ec6a-9814-1365-7cf3250196c1-808f03c3, #w-node-acae3d1d-642f-8662-8594-50bb60af40ca-cef47873, #w-node-b31fe098-7f7a-1342-ebf1-880e821ae924-b94f07e9, #w-node-_8f4aceb6-2d78-a3bd-aa21-7649c79e3f7d-b29b2223, #w-node-d3f74472-2b63-68bc-d6ad-5ebb946eb13b-94cb1f84, #w-node-d3f74472-2b63-68bc-d6ad-5ebb946eb16a-94cb1f84, #w-node-d3f74472-2b63-68bc-d6ad-5ebb946eb175-94cb1f84, #w-node-d3f74472-2b63-68bc-d6ad-5ebb946eb18f-94cb1f84, #w-node-_74f880aa-71ec-c6dd-e4de-dfbaea430499-42c7665a, #w-node-_9225c0ee-85d8-b8b7-eb84-236353a4fae0-6caf723e, #w-node-_9225c0ee-85d8-b8b7-eb84-236353a4fb03-6caf723e, #w-node-_9225c0ee-85d8-b8b7-eb84-236353a4fb19-6caf723e, #w-node-_9225c0ee-85d8-b8b7-eb84-236353a4fb29-6caf723e, #w-node-_07b16cad-9abc-1a75-9599-59bc649c3c1d-6caf723e, #w-node-_72ed50e9-4de9-faf0-04f7-f15258736bc2-42ca2a97, #w-node-_72ed50e9-4de9-faf0-04f7-f15258736bed-42ca2a97, #w-node-_72ed50e9-4de9-faf0-04f7-f15258736c4b-42ca2a97, #w-node-_72ed50e9-4de9-faf0-04f7-f15258736c53-42ca2a97, #w-node-_1b9b0a71-a19e-eb95-61d9-34bba488b129-42ca2a97 {
+  #w-node-c553633d-891a-3318-e2a8-afd941d34f6b-c90c5db6, #w-node-f83d3e19-390c-bd21-9ced-a5d183deebcc-808f03c3, #w-node-_6550accc-6ea1-2e83-7c52-a3cbc4a161e4-808f03c3, #w-node-_663dea5b-dc64-9bd6-36c2-9d6fd3f611db-808f03c3, #w-node-_572423ff-ec6a-9814-1365-7cf3250196c1-808f03c3, #w-node-_19db1225-0a7f-2092-1d2d-cf545bf2d892-6c5caca3, #w-node-_19db1225-0a7f-2092-1d2d-cf545bf2d8c5-6c5caca3, #w-node-_19db1225-0a7f-2092-1d2d-cf545bf2d8e7-6c5caca3, #w-node-acae3d1d-642f-8662-8594-50bb60af40ca-cef47873, #w-node-b31fe098-7f7a-1342-ebf1-880e821ae924-b94f07e9, #w-node-_8f4aceb6-2d78-a3bd-aa21-7649c79e3f7d-b29b2223, #w-node-d3f74472-2b63-68bc-d6ad-5ebb946eb13b-94cb1f84, #w-node-d3f74472-2b63-68bc-d6ad-5ebb946eb16a-94cb1f84, #w-node-d3f74472-2b63-68bc-d6ad-5ebb946eb175-94cb1f84, #w-node-d3f74472-2b63-68bc-d6ad-5ebb946eb18f-94cb1f84, #w-node-_74f880aa-71ec-c6dd-e4de-dfbaea430499-42c7665a, #w-node-_9225c0ee-85d8-b8b7-eb84-236353a4fae0-6caf723e, #w-node-_9225c0ee-85d8-b8b7-eb84-236353a4fb03-6caf723e, #w-node-_9225c0ee-85d8-b8b7-eb84-236353a4fb19-6caf723e, #w-node-_9225c0ee-85d8-b8b7-eb84-236353a4fb29-6caf723e, #w-node-_07b16cad-9abc-1a75-9599-59bc649c3c1d-6caf723e, #w-node-_72ed50e9-4de9-faf0-04f7-f15258736bc2-42ca2a97, #w-node-_72ed50e9-4de9-faf0-04f7-f15258736bed-42ca2a97, #w-node-_72ed50e9-4de9-faf0-04f7-f15258736c4b-42ca2a97, #w-node-_72ed50e9-4de9-faf0-04f7-f15258736c53-42ca2a97, #w-node-_1b9b0a71-a19e-eb95-61d9-34bba488b129-42ca2a97, #w-node-_72b3d85a-b515-e333-c9d8-4868e9b67712-abfaf957 {
     grid-column-start: 1;
   }
 }
