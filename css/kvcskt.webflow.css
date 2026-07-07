@@ -1225,7 +1225,8 @@ label {
 }
 .portfolio-item-head{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: baseline;
   gap: 1rem;
 }
 
@@ -1395,7 +1396,7 @@ label {
     width: 100%;
   }
   .portfolio-item-head{
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .h1-title {
