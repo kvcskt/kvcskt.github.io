@@ -463,6 +463,7 @@ label {
   display: none;
 }
 
+
 .contact-content {
   flex-direction: column;
   align-items: flex-start;
@@ -1221,6 +1222,10 @@ label {
 
 .portfolio-item-title {
   margin-bottom: 0;
+}
+.portfolio-item-head{
+  display: flex;
+  gap: 1rem;
 }
 
 .list {
