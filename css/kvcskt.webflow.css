@@ -1225,6 +1225,7 @@ label {
 }
 .portfolio-item-head{
   display: flex;
+  flex-direction: column;
   gap: 1rem;
 }
 
@@ -1392,6 +1393,9 @@ label {
 
   .intro-desciption-wrapper {
     width: 100%;
+  }
+  .portfolio-item-head{
+    flex-direction: row;
   }
 
   .h1-title {
