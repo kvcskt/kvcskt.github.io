@@ -1992,6 +1992,10 @@ label {
   .u-mt-o {
     font-size: 2.2rem;
   }
+
+  .tag-wrapper {
+    flex-flow: wrap;
+  }
 }
 
 #w-node-_3e8469fb-e4d7-1290-badd-d277b4766508-de78e04b, #w-node-fd4b00a7-1800-5430-c59b-139165bb9d11-de78e04b, #w-node-d51c42d4-f25e-9e8b-8b1d-0551d132e532-de78e04b, #w-node-_02bf1beb-0918-d123-3416-efa0c79806ab-de78e04b, #w-node-_92a793af-80d4-289c-80d7-001497be9067-de78e04b, #w-node-f607864e-e92c-a61c-e56a-0edd74412dda-de78e04b, #w-node-f9916f71-0d82-d351-85ca-72846059d650-de78e04b, #w-node-e166b40c-a365-fd9f-abfd-33cb24c1e85a-de78e04b, #w-node-_9a782afc-dfc4-49bf-95fe-5887e1876afe-de78e04b, #w-node-_2c5a4a57-b650-b71f-f828-6673c1b4e9bd-de78e04b, #w-node-_2c6be7a0-3b8b-f072-ca24-15f287b5f450-de78e04b {
