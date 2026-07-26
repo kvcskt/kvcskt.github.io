@@ -686,9 +686,8 @@ label {
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
-  margin-top: 50px;
-  padding-top: 5%;
-  padding-bottom: 10%;
+  padding-top: 66px;
+  padding-bottom: 0;
   display: flex;
   position: relative;
 }
