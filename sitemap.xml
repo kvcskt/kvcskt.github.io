@@ -2,71 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://kovacskata.me/</loc>
+    <loc>https://katakovacs.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Main Pages -->
   <url>
-    <loc>https://kovacskata.me/about</loc>
+    <loc>https://katakovacs.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kovacskata.me/work</loc>
+    <loc>https://katakovacs.com/work</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://kovacskata.me/film-photography</loc>
+    <loc>https://katakovacs.com/film-photography</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://kovacskata.me/wedding-stationery</loc>
+    <loc>https://katakovacs.com/wedding-stationery</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Portfolio / Case Studies -->
   <url>
-    <loc>https://kovacskata.me/work/stories-of-data</loc>
+    <loc>https://katakovacs.com/work/stories-of-data</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kovacskata.me/work/think-bold-studio</loc>
+    <loc>https://katakovacs.com/work/think-bold-studio</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kovacskata.me/work/sepsirun</loc>
+    <loc>https://katakovacs.com/work/sepsirun</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kovacskata.me/work/georgs-bio-bauern</loc>
+    <loc>https://katakovacs.com/work/georgs-bio-bauern</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kovacskata.me/work/urban-eye-film-festival</loc>
+    <loc>https://katakovacs.com/work/urban-eye-film-festival</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kovacskata.me/work/chalkpaint-ro</loc>
+    <loc>https://katakovacs.com/work/chalkpaint-ro</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kovacskata.me/work/cay-yay-films</loc>
+    <loc>https://katakovacs.com/work/cay-yay-films</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kovacskata.me/work/mera-word-music-festival</loc>
+    <loc>https://katakovacs.com/work/mera-word-music-festival</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
