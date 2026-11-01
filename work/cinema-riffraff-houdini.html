@@ -85,8 +85,8 @@ We tested four flows: registering and buying tickets (the main flow), finding a 
               </div>
               <div class="info-block">
                 <h3>my role</h3>
-                <p class="paragraph">As UX/UI designer, I worked in a team of three with Aurore Bonjour and Brigitte Lampert over two months: one month of conducting interviews, one month of drawing conclusions and redesigning. Within the team I worked on the webshop structure.<br>‍<br>‍<strong>• user testing and interview analysis (as a team)<br>• wireframing<br>• UI design (in some cases)<br>• webshop redesign</strong> </p>
-                <p><strong>Tools:</strong> Microsoft Teams (interviews and transcription), Claude (summaries), FigJam (preparation), Figma (UI design)
+                <p class="paragraph">As UX/UI designer, I worked in a team of three with Aurore Bonjour and Brigitte Lampert over two months: one month of conducting interviews, one month of drawing conclusions and redesigning. Within the team I worked on the webshop structure.<br>‍<br>‍<strong>• user testing and interview analysis (as a team)<br>• wireframing<br>• UI design (in some cases)<br>• webshop redesign: product order, product thumbnails and cart</strong> </p>
+                <p><br><strong>Tools:</strong> Microsoft Teams (interviews and transcription), Claude (summaries), FigJam (preparation), Figma (UI design)
 <br><strong>Deliverables:</strong> updated wireframes, and UI designs in some cases</p>
               </div>
             </div>
@@ -99,27 +99,58 @@ We tested four flows: registering and buying tickets (the main flow), finding a 
               <div class="u-mb-2">
                 <h3>target audience</h3>
                 <p class="paragraph">Primary: adult film lovers from Zurich and the surrounding area who appreciate arthouse films and a good cinema.
-<br>Secondary: families, groups and companies who want to rent rooms or host events.<br>b<br>We tested with five people aged 25 to 60. They came from different backgrounds: student, architect, vet and teacher. Each of us asked one or two friends, and the sessions took place in a meeting room.</p>
+<br>Secondary: families, groups and companies who want to rent rooms or host events.<br>We tested with five people aged 25 to 60. They came from different backgrounds: student, architect, vet and teacher. Each of us asked one or two friends, and the sessions took place in a meeting room.</p>
               </div>
             </div>
             <div class="u-mb-2">
               <div class="info-block">
-                <h3>the structure</h3>
-                <p class="paragraph u-mb-1">For case studies with the same structure I always recommend using the Webflow CMS collections because the template page offers consistency across case studies.<br>In this case however the client decided to use static pages instead of dynamic ones.<br><br><strong>Main navigation<br></strong>The main navigation of the Portfolio is an expandable menu with the case studies. With this solution the user can easily access the landing page and browse between the projects. <br><br><strong>View navigation<br>‍</strong>The portfolio section showcases case studies across three levels of detail. Since this structure is an unconventional approach to presenting information, the challenge was to design a visual solution that clearly communicates the navigation flow and manages user expectations.<br>From a SEO and marketing perspective, we decided to integrate the three views into a single page. This approach ensures that all views share the same URL, allowing customized transitions between them. </p><img src="../images/Screenshot-2024-10-29-at-19.10.13.png" loading="lazy" sizes="(max-width: 479px) 47vw, (max-width: 767px) 62.4765625px, (max-width: 991px) 22vw, (max-width: 1279px) 23vw, (max-width: 1919px) 24vw, 16vw" srcset="../images/Screenshot-2024-10-29-at-19.10.13-p-500.png 500w, ../images/Screenshot-2024-10-29-at-19.10.13.png 582w" alt="" class="project-image">
+                <h3>the problem</h3>
+                <p class="paragraph u-mb-1">We chose four scenarios because they cover the website’s central functions: the main flow is relevant for most age groups, finding a film shows how intuitively users discover films, the Kinokarte is an add-on that could bind customers but isn’t prominent enough, and group booking speaks to a specific audience.<br>
+                <ul>
+                  <li>
+                    <strong>Registration and ticket purchase:</strong> Registration and login felt laborious and unclear, and participants looked for a guest login. Entering a birth date and password was cumbersome, some mandatory fields seemed unnecessary, and after logging in again the originally chosen seats were blocked.
+                  </li>
+                  <li>
+                    <strong>Finding a film:</strong> The inspiration approach, the genres and the language of the descriptions worked well. The filters were clearly structured but not complete. The difference between “Veranstaltungen” and “Events” was unclear, and streaming and cinema were presented equally, so it was unclear where a film was available.
+                  </li>
+                  <li>
+                    <strong>Buying a Kinokarte:</strong> Buying a Kinokarte: The terms Gutschein, Kinogutschein and Kinokarte were confusing, and so was “digital vs. analog”. The card was hard to find and the shop’s product order wasn’t understandable, with less relevant products shown first. The cart and checkout were hard to find, there was no feedback after actions, and the choice of credit amounts was limited. Participants said it themselves:<br>
+“I’m not sure exactly how I get to the payment process.” (“Weiss ich jetzt nicht genau, wie ich zum Bezahlungsprozess kommen kann.”)<br>
+“I’d still need something here so I can add it to the cart, or an OK or something like that.” (“Ich würde hier noch ein irgendetwas brauchen, damit ich zum Warenkorb hinfügen oder ein OK oder so etwas.”)<br>
+“A small button saying ‘buy’ would be good too.” (“Also noch ein ein kleines Button mit kaufen wäre gut.”)<br>
+“But how you’d give the cinema card as a gift, I still can’t see that.” (“Aber wie man die Kinokarte dann verschenkt, das seh ich da immer noch nicht.”)<br>
+                  </li>
+                  <li>
+                    <strong>Booking for a children’s group (7 children, 1 adult):</strong> There was little orientation in the booking process and no confirmation steps. Seat selection and seat allocation were inflexible and blocked seats were unclear. The process was repetitive, the terms and conditions had to be confirmed several times, and the effort for group bookings was high.
+                  </li>
+                </ul></p>
+                  <img src="../images/Screenshot-2024-10-29-at-19.10.13.png" loading="lazy" sizes="(max-width: 479px) 47vw, (max-width: 767px) 62.4765625px, (max-width: 991px) 22vw, (max-width: 1279px) 23vw, (max-width: 1919px) 24vw, 16vw" srcset="../images/Screenshot-2024-10-29-at-19.10.13-p-500.png 500w, ../images/Screenshot-2024-10-29-at-19.10.13.png 582w" alt="" class="project-image">
               </div>
             </div>
           </div>
           <div id="w-node-_6961e7b6-bf60-d3ac-59a1-3e0e2a30676c-808f03c3">
-            <h2 class="u-mt-o">View implementation</h2>
+            <h2 class="u-mt-o">the process</h2>
           </div>
           <div id="w-node-_663dea5b-dc64-9bd6-36c2-9d6fd3f611db-808f03c3" class="project-description">
             <div class="u-mb-2">
               <div class="info-block">
-                <p class="paragraph">Webflow as a no-code design and development tool known for its flexibility and control over design elements. Webflow’s Designer was used to build the layout and styling while ensuring responsive design across devices.</p>
+                <p class="paragraph">In the first month we ran the user tests as think-aloud interviews, where participants say out loud what they are thinking while using the site. We prepared them in FigJam, ran and transcribed them with Microsoft Teams, and used Claude to summarise them. In the second month we grouped the findings by flow and turned them into design proposals for three areas: navigation, the ticket booking process and the webshop structure. We split these among the team, and I worked on the webshop. We restructured the navigation on a sticky-note wall and built the redesigns as Figma prototypes. We didn’t have time to address every pain point, so we concentrated on the proposals above.</p>
               </div>
+            </div>
+          </div>
+          <div id="w-node-_6961e7b6-bf60-d3ac-59a1-3e0e2a30676c-808f03c3">
+            <h2 class="u-mt-o">the outcome</h2>
+          </div>
+          <div id="w-node-_663dea5b-dc64-9bd6-36c2-9d6fd3f611db-808f03c3" class="project-description">
+            <div class="u-mb-2">
               <div class="info-block">
-                <h3>navigation between the views</h3>
-                <p class="paragraph u-mb-2">Technically, the three layers of content are stacked on top of one another, with each layer occupying the full viewport. Initially, only the summary view is visible. As the user zooms in, the more detailed view appears while the summary view is hidden. The user can then navigate through the visible layer using scrolling. Similarly, when zooming out, the detailed view is concealed and a less detailed view is shown.<br><br>Since we decided to integrate the three views into a single page I had the possibility to play around with the animations. The user zooms in and out between the views, the goal was to recreate this effect on click.The Zoom in animation from Summary view to Key subject view scales up the window as you would dive into the details. The animation from Key subject view to Detailed view zooms in and grows the project window to full screen. The animations make it easier to understand the structure of the information and the navigation between them.<br><br>The navigation between the projects and between the views are also accessible by keyboard. We set up a keyboard combination for each action:<br>Previous case study: Ctrl + A<br>Next case study: Ctrl + D<br>Zoom in: Ctrl + S<br>Zoom out: Ctrl + W<br><br>When the user enters the portfolio, small tooltips are shown to help users navigate around the site. More tooltips show the action of each button on hover interaction.</p><img src="../images/Screenshot-2024-10-29-at-19.14.29.png" loading="lazy" alt="" class="project-image">
+                <p class="paragraph">Navigation and footer. Before, two separate navigations with duplicate links and no hierarchy made it unclear which menu was for which content. Now less important links sit in dropdown menus, the newsletter has moved to the footer, and streaming on cinu.ch is a stronger call-to-action area.<br>
+
+Webshop and Kinokarte (my part). Before, the card couldn’t be put straight into the cart and the cart was visible only at the top of the page. Now there is an “In den Warenkorb” button, and a slide-in cart appears once an item is added.<br>
+
+Ticket purchase and seat selection. Before, buying without a login was complicated, there was no price overview, seats couldn’t be chosen individually, and discounts had to be confirmed every time. Now login is optional and comes only at the end, with no complicated form. Price categories show on hover and seats can be chosen freely.<br>
+
+The redesigns haven’t been tested with users yet, so they are proposals rather than proven improvements.</p>
               </div>
             </div>
           </div>
